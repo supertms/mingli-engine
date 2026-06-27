@@ -1,0 +1,26 @@
+{
+  "name": "mingli-engine",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Auditable Chinese metaphysics chart engine. Phase 1: Zi Wei Dou Shu powered by iztro.",
+  "type": "module",
+  "license": "UNLICENSED",
+  "scripts": {
+    "dev": "tsx src/cli.ts",
+    "build": "tsc -p tsconfig.json",
+    "test": "vitest run",
+    "lint": "tsc -p tsconfig.json --noEmit",
+    "ziwei": "tsx src/cli.ts ziwei"
+  },
+  "dependencies": {
+    "commander": "^12.1.0",
+    "iztro": "^2.5.8",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.10",
+    "tsx": "^4.16.2",
+    "typescript": "^5.5.3",
+    "vitest": "^2.0.5"
+  }
+}
