@@ -1,0 +1,10 @@
+{
+  "calendar": "solar",
+  "date": "2000-08-16",
+  "timeIndex": 2,
+  "gender": "女",
+  "locale": "zh-CN",
+  "options": {
+    "useTrueSolarTime": false
+  }
+}
